@@ -1,0 +1,375 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.btn-rec {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-rec:hover,
+.btn-rec:focus,
+.btn-rec:active {
+    color: #333;
+    background-color: LightSkyBlue ;
+	color : white;
+}
+
+.btn-green {
+    border-radius: 0;
+    color: white;
+    background-color: LawnGreen ;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+hr.md {
+    max-width: 300px;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../../../img/education.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header h1{
+	color:White  ;
+}
+.header h3{
+	color:White   ;
+}
+
+.name_user i{
+	color:black; 
+	font-weight: 550;
+}
+/* tab toggle */
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+/* About */
+.button-back-main{
+	padding-top: 10px ;
+}
+.button-back{
+	padding-top: 5px ;
+	background-color:DarkGray;
+	color: White;
+}
+.button-back:hover{
+	padding-top: 5px ;
+	background-color: BurlyWood ;
+	color: White;
+}
+.test-button{
+	background-color:ForestGreen ;
+	color: white;
+	margin-top:60px;
+	margin-bottom:0.5px;
+	font-size:18px;
+}
+.test-button:hover{
+	background-color:FireBrick ;
+	color: white;
+	margin-top:60px;
+	margin-bottom:0.5px;
+	font-size:18px;
+}
+
+.about {
+    padding: 50px 0;
+}
+.about-course{
+    padding-top: 50px;
+}
+.about-content{
+	padding-top: 50px ;
+}
+.rowcourse{
+	background-color: DarkGray ;
+}
+
+.content{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: DarkGray ;
+	
+}
+.content-main{
+	background-color: Gainsboro  ;
+	padding: 10px 0;
+}
+.content-list{
+	color: Black;
+}
+
+.content-data{
+	color: Black;
+}
+.content-button{
+	background-color: White;
+	color: black;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+.content-button:hover{
+	background-color: LightSeaGreen 	;
+	color: White;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+.content-button-action{
+	background-color: Peru   ;
+	color: White;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+.content-button-question{
+	background-color: White;
+	color: black;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+
+.course-test-button{
+	background-color:white ;
+	color: black;
+	margin-top:0px;
+	margin-bottom:0.5px;
+	font-size:18px;
+}
+.course-test-button:hover{
+	background-color:Gold   ;
+	color:DarkViolet ;
+	margin-top:0px;
+	margin-bottom:0.5px;
+	font-size:18px;
+}
+
+.course-enrol{
+	background-color:Green ;
+	color: white;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:18px;
+}
+.course-enrol:hover{
+	background-color:lightGreen  ;
+	color:black;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:18px;
+}
+.course-button{
+	background-color: White;
+	color: black;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+.course-button:hover{
+	background-color: LightSeaGreen 	;
+	color: White;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+.course-button-action{
+	background-color: DarkSlateBlue    ;
+	color: White;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+.reccourse{
+	background-color: DimGray ;
+	color: white;
+	font-size:18px;
+}
+
+.verticalLine {
+    border-right: thin solid #e8e8e8;
+	border-left:  thin solid #e8e8e8;
+}
+.link-button{
+	background-color: White;
+	color: black;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+.link-button:hover{
+	background-color: PaleTurquoise ;
+	color: Black;
+	margin-top:0.5px;
+	margin-bottom:0.5px;
+}
+
+.click-slide{
+	color: Aqua ;
+}
+.click-slide:hover,
+.click-slide:focus,
+.click-slide:active{
+	color: Gold ;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.show-content{
+	background-color: White;
+	color: black;
+	margin-top:3px;
+}
+
+.show-content:hover{
+	background-color: DarkOrange    ;
+	color: White;
+	margin-top:3px;
+}
+
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../../../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 20px 0;
+	background-color: WhiteSmoke ;
+}
